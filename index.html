@@ -71,7 +71,7 @@
                     <li><a href="#Acceuil"> <i class="fa-solid fa-home" ></i> Acceuil</a></li>
                     <li><a href="#propos"> <i class="fa-solid fa-users"></i> A propos de nous</a></li>
                     <li><a href="#Services"> <i class="fa-solid fa-wrench" ></i> Services</a></li>
-                    <li><a href="">|</  a></li>
+                    <li><a href="">|</a></li>
                     <li><a href="+330614732653"> <i class="fa-solid fa-phone"></i> (+33)0614732653</a></li>
                 </ul>
             </div>
@@ -415,7 +415,13 @@
     
       </div>
 
+    <!--CALL TO ACTION-->
 
+    <div class="calltoaction">
+        <p class="callp">Nous proposons des prestations par nos mécaniciens forts d'une expérience de plus de 25 ans ainsi que la fourniture de piéce détachées avec de références de grandes marques neuves ou d'occasions.</p>
+        <a href="#" class="callb">CONTACTEZ NOUS</a>
+        <a href="#" class="callb">NOS SERVICES</a>
+    </div>
 
     <!--FOOTER-->
     
@@ -442,6 +448,22 @@
             }
         });
     </script>
+
+
+    <!--SCRIPT FOR SHOWING THE MENU-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Include Owl Carousel library -->
@@ -461,7 +483,7 @@
                 autoplayHoverPause: true,
                 responsive: {
                     0: {
-                        items: 1
+                        items: 2
                     },
                     600: {
                         items: 3
